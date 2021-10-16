@@ -10,7 +10,7 @@ provider:
   region: us-east-1
 
 functions:
-  sendOTP:
+  commonService:
     handler: index.common_service
     timeout: 30
     events:
